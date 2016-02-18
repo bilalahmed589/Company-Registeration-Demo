@@ -5,10 +5,9 @@
 
 Company
 -------
--------
 
 Create Company                    POST /company
---------------
+
 This creates a new company.
 
 Sample Request:
