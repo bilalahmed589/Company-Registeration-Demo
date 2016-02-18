@@ -6,7 +6,7 @@
 Company
 -------
 
-Create Company                    POST /company
+##### Create Company                    POST /company
 
 This creates a new company.
 
@@ -33,7 +33,7 @@ Status 400 Returned if the input is invalid (e.g. missing required fields, inval
 
 Status 201 - application/jsonReturns a json of the created company.
 
-Update Company                    Update /company
+##### Update Company                    Update /company
 
 This updates an existing company
 
@@ -60,9 +60,9 @@ Status 400 Returned if the input is invalid (e.g. missing required fields, inval
 
 Status 201 - application/jsonReturns a json of the created company
 
-Get All Companies                 Get /company
+##### Get All Companies                 Get /company
 
-Get a company                     GET /company{id}
+##### Get a company                     GET /company{id}
 
-Add company owners                POST /company/{id}/beneficialOwner
+##### Add company owners                POST /company/{id}/beneficialOwner
 
