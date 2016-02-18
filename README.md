@@ -10,7 +10,7 @@ Company
 
 This creates a new company.
 
-Sample Request:
+###### Sample Request:
 
 {
    "id": null,
@@ -27,7 +27,7 @@ Sample Request:
    ]
 }
 
-Responses:
+###### Responses:
 
 Status 400 Returned if the input is invalid (e.g. missing required fields, invalid field values, and so forth).
 
@@ -37,7 +37,7 @@ Status 201 - application/jsonReturns a json of the created company.
 
 This updates an existing company
 
-Sample Request:
+###### Sample Request:
 
 {
    "id": 1,
@@ -54,7 +54,7 @@ Sample Request:
    ]
 }
 
-Responses:
+###### Responses:
 
 Status 400 Returned if the input is invalid (e.g. missing required fields, invalid field values, and so forth).
 
