@@ -11,7 +11,7 @@ Company
 This creates a new company.
 
 ###### Sample Request:
-
+```json
 {
    "id": null,
    "username": "Ahmed",
@@ -26,7 +26,7 @@ This creates a new company.
       }
    ]
 }
-
+```
 ###### Responses:
 
 Status 400 Returned if the input is invalid (e.g. missing required fields, invalid field values, and so forth).
@@ -38,7 +38,7 @@ Status 201 - application/jsonReturns a json of the created company.
 This updates an existing company
 
 ###### Sample Request:
-
+```json
 {
    "id": 1,
    "username": "Ahmed",
@@ -53,7 +53,7 @@ This updates an existing company
       }
    ]
 }
-
+```
 ###### Responses:
 
 Status 400 Returned if the input is invalid (e.g. missing required fields, invalid field values, and so forth).
