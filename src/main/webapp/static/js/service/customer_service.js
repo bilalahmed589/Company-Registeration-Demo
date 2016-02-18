@@ -5,7 +5,7 @@ App.factory('CustomerService', ['$http', '$q', function($http, $q){
 	return {
 		
 			fetchAllUsers: function() {
-					return $http.get('http://localhost:8889/Demo/customer/')
+					return $http.get('/customer/')
 							.then(
 									function(response){
 										return response.data;
@@ -18,7 +18,7 @@ App.factory('CustomerService', ['$http', '$q', function($http, $q){
 			},
 		    
 		    createUser: function(user){
-					return $http.post('http://localhost:8889/Demo/customer/', user)
+					return $http.post('/customer/', user)
 							.then(
 									function(response){
 										return response.data;
@@ -31,7 +31,7 @@ App.factory('CustomerService', ['$http', '$q', function($http, $q){
 		    },
 		    
 		   createBeneficalOwner: function(id){
-				return $http.post('http://localhost:8889/Demo/customer/'+ id + "/beneficialOwner/")
+				return $http.post('/customer/'+ id + "/beneficialOwner/")
 						.then(
 								function(response){
 									return response.data;
@@ -44,7 +44,7 @@ App.factory('CustomerService', ['$http', '$q', function($http, $q){
 	    },
 		    
 		    updateUser: function(user, id){
-					return $http.put('http://localhost:8889/Demo/customer/'+id, user)
+					return $http.put('/customer/'+id, user)
 							.then(
 									function(response){
 										return response.data;
@@ -58,7 +58,7 @@ App.factory('CustomerService', ['$http', '$q', function($http, $q){
 			
 			
 			loadCustomer: function(id){
-				return $http.get('http://localhost:8889/Demo/customer/'+id )
+				return $http.get('/customer/'+id )
 						.then(
 								function(response){
 									return response.data;
