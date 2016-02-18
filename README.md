@@ -28,12 +28,16 @@ Sample Request:
 }
 
 Responses:
+
 Status 400 Returned if the input is invalid (e.g. missing required fields, invalid field values, and so forth).
 Status 201 - application/jsonReturns a json of the created company.
 
 Update Company                    Update /company
+
 This updates an existing company
+
 Sample Request:
+
 {
    "id": 1,
    "username": "Ahmed",
@@ -50,6 +54,7 @@ Sample Request:
 }
 
 Responses:
+
 Status 400 Returned if the input is invalid (e.g. missing required fields, invalid field values, and so forth).
 Status 201 - application/jsonReturns a json of the created company
 
