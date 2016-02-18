@@ -11,7 +11,7 @@ import com.demo.company.model.BeneficialOwners;
 import com.demo.company.model.Company;
 import com.demo.company.vo.CompanyVo;
 
-@Service("customerService")
+@Service("companyService")
 @Transactional
 public class CompanyServiceImpl implements CompanyService{
 	
